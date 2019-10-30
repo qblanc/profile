@@ -5,17 +5,20 @@ body {
   color: rgb(94, 103, 117);
 }
 
+.container {
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 2960px) {
+  .container {
+    width: 700px;
+  }
+
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
   }
-}
-
-.container {
-    width: 700px;   /* This sets the width */
-  margin: 0 auto; /* This automatically sets left/right margins */
-  margin: 0 auto;
 }
 
 .card {
